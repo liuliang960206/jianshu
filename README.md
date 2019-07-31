@@ -16,6 +16,8 @@ react + redux + redux-thunk + react-redux + react-router4 + axios + es6
 难点3：功能页面比较多的情况下所有的action和reducer都写到一起，不仅会在获取数据时容易混乱，而且代码可读性比较差。
 解决方案： 分功能分模块写入action和reducer。然后使用combineReducers合并多个reducer，按需引入各个页面的reducer，使得结构清晰
 
+![](https://user-gold-cdn.xitu.io/2019/7/31/16c479a5ba5318e3?w=1298&h=658&f=gif&s=3634376)
+
 
 # 功能一：通过react-thunk中间件获取ajax数据
 
