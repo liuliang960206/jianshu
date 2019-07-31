@@ -6,6 +6,7 @@
 react + redux + redux-thunk + react-redux + react-router4 + axios + es6 
 
 - 1.3 业务难点及解决方案：
+
 难点1：头部组件引入iconfont图标，但一直显示方块
 解决方案：用react-fontawesome，引入相关模块后，在需要显示图标的地方加入<FontAwesomeIcon icon="coffee" />即可
 
